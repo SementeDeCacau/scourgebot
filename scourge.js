@@ -8,7 +8,7 @@ bot.on('guildMemberAdd', member => {
     console.log('User' + member.user.username + 'joined the server!')
     console.log(member)
 
-    member.guild.channels.get('380843437152534551').send('Welcome' + member.user.username + '**, please read the rules')
+    member.guild.channels.get('380843437152534551').send('Welcome, **' + member.user.username + '**, please read the rules')
 });
 
 bot.on('guildMemberRemove', member => {
