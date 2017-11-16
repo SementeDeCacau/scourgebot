@@ -1,0 +1,16 @@
+{
+  "name": "scourgebot",
+  "version": "1.0.0",
+  "main": "scourge.js",
+  "scripts": {
+    "start": "node scourge.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "pm2": "^2.7.2",
+    "save": "^2.3.1"
+  }
+}
