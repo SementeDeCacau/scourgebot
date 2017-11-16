@@ -15,3 +15,7 @@ bot.on('guildMemberRemove', member => {
     member.guild.channels.get('373244635293941764').send('**' + member.user.username + '** left...')
 
 });
+
+if (message.content.startsWith(prefix + 'ayy')) {
+        message.channel.sendMessage('lmao :alien:');
+ };
