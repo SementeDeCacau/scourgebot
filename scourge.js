@@ -16,6 +16,8 @@ bot.on('guildMemberRemove', member => {
 
 });
 
-if (message.content.startsWith(prefix + 'ayy')) {
-        message.channel.sendMessage('lmao :alien:');
- };
+bot.on("message", (message) => {
+    if(message.content == "ayy") {
+        message.channel.sendMessage("lmao :alien:");
+    }
+});    
