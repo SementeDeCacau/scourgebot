@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login('MzgwNzQ2OTIxMzU2Mjk2MTky.DO-lrA.CUEOQ4wS29roeyESjIgLMDXk210');
+const config = require("./token.txt");
 
 bot.on('guildMemberAdd', member => {
 
