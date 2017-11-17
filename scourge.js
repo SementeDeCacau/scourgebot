@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const config = require("./config.json");
+bot.login('MzgwNzQ2OTIxMzU2Mjk2MTky.DPDXjQ.ww7OpINK_Ca6rudW3ENhbax6mfA')
 
 bot.on('guildMemberAdd', member => {
 
