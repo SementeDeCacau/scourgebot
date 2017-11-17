@@ -7,13 +7,13 @@ bot.on('guildMemberAdd', member => {
 
     console.log('User' + member.user.username + 'joined the server!')
     console.log(member)
-
+    var role = member.guild.roles.find('name', 'Human');
+    member.addRole(role)
     member.guild.channels.get('373244635293941764').send('Welcome, **' + member.user.username + '**, please read the rules!')
 });
 
 bot.on('guildMemberRemove', member => {
     member.guild.channels.get('373244635293941764').send('**' + member.user.username + '** left...')
-
 });
 
 bot.on("message", (message) => {
