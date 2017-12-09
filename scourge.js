@@ -19,9 +19,4 @@ bot.on('guildMemberRemove', member => {
 bot.on("message", (message) => {
     if(message.content == "ayy") {
         message.channel.sendMessage("lmao :alien:");
-    }
-    if(message.content == "I want to be Thing") {
-        member.addRole(Thing)
-        message.channel.sendMessage("Done!")
-    }    
-});    
+    };
