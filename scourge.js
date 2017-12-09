@@ -19,4 +19,5 @@ bot.on('guildMemberRemove', member => {
 bot.on("message", (message) => {
     if(message.content == "ayy") {
         message.channel.sendMessage("lmao :alien:");
-    };
+    }
+};
