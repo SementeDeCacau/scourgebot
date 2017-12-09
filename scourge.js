@@ -20,4 +20,9 @@ bot.on("message", (message) => {
     if(message.content == "ayy") {
         message.channel.sendMessage("lmao :alien:");
     }
+    if(message.content == "I want to be Thing") {
+        var role = member.guild.roles.find('name', 'Human');
+        member.addRole(role)
+        message.channel.sendMessage("Done!")
+    }    
 });    
