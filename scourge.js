@@ -21,7 +21,7 @@ bot.on("message", (message) => {
         message.channel.sendMessage("lmao :alien:");
     }
     if(message.content == "I want to be Thing") {
-        var role = member.guild.roles.find('name', 'Human');
+        var role = member.guild.roles.find('name', 'Thing');
         member.addRole(role)
         message.channel.sendMessage("Done!")
     }    
